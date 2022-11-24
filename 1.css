@@ -1,0 +1,126 @@
+.header {
+  background-color: rgb(71, 71, 71);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.leftcolumn {
+  float: left;
+  width: 17%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 83%;
+}
+
+.ark {
+  border: none;
+  text-align: center;
+}
+
+.t1 {
+  padding: 5px;
+  width: 50px;
+  border: none;
+}
+
+.tr1:nth-child(2n+1) {
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
+
+.tr1:nth-child(2n) {
+  color: rgb(71, 71, 71);
+}
+
+.dao {
+  border: none;
+  text-align: center;
+  padding:  350px 118px;
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
+
+.dao a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 0;
+  padding-left: 0%;
+  padding-bottom: 0%;
+  padding-right: 0%;
+  font-size: 40px;
+}
+
+.tr:nth-child(2n) {
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.picture {
+  margin: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  float: left;
+  width: 682px;
+}
+
+div.picture img {
+  width: 100%;
+  height: auto;
+  -webkit-filter: drop-shadow(10 px 10 px rgba(0,0,0,.5));
+  filter: drop-shadow(10px 10px rgba(0,0,0,.5));
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #333;
+  padding: 20px;
+  font-size: 30px;
+  text-align: right;
+}
